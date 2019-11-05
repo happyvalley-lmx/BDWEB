@@ -1,0 +1,406 @@
+.navigation {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 65px;
+  background-color: #1a80a5;
+  box-shadow: black 1px 1px 3px 0px;
+}
+
+.nav-link {
+  display: block;
+  width: 143px;
+  height: 65px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Lato, 黑体;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  background-color: #166d8d;
+}
+
+.nav-link.w--current {
+  color: white;
+}
+
+.nav-link.centre {
+  width: 310px;
+  height: 65px;
+  background-color: #1b6581;
+}
+
+.nav-link.centre:hover {
+  background-color: #206a85;
+}
+
+.navigation-centre {
+  background-color: #1b6581;
+}
+
+.navigation-centre:hover {
+  background-color: #206a85;
+}
+
+.slider {
+  height: 450px;
+}
+
+.slide-template {
+  background-image: url('../images/CYAF3Wg.jpg');
+  background-position: 0px -163px;
+  background-size: cover;
+}
+
+.image-section {
+  height: 510px;
+  border-bottom: 4px solid #1a80a5;
+  background-image: url('../images/CYAF3Wg.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.body {
+  height: 1000px;
+}
+
+.left-middle:hover {
+  background-color: #166d8d;
+}
+
+.left:hover {
+  background-color: #166d8d;
+}
+
+.right:hover {
+  background-color: #166d8d;
+}
+
+.right-middle:hover {
+  background-color: #166d8d;
+}
+
+.image-section-container {
+  height: 450px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading.white {
+  margin-top: 170px;
+  font-family: 微软雅黑, 黑体;
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.heading.white.popup {
+  margin-top: 0px;
+}
+
+.heading.white.popup-title {
+  margin-top: 13px;
+  font-size: 44px;
+  font-weight: 200;
+  text-align: left;
+}
+
+.heading.white.server-rules {
+  margin-top: 45px;
+  font-weight: 300;
+}
+
+.heading.white.voting {
+  margin-top: 20px;
+}
+
+.heading.prism {
+  margin-top: 9px;
+  font-family: 微软雅黑, 黑体;
+  color: #1a80a5;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.paragraph.white {
+  font-family: 微软雅黑, 黑体;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-section {
+  height: 500px;
+}
+
+.about-image {
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin-top: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-heading {
+  margin-top: 7px;
+  font-family: 微软雅黑, 黑体;
+  color: #1a80a5;
+  font-size: 39px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.about-para {
+  font-family: 微软雅黑, 黑体;
+  color: #1a80a5;
+  text-align: center;
+}
+
+.popup {
+  height: 151px;
+  background-color: #244753;
+  box-shadow: black 0px -1px 3px 0px, black 0px 1px 3px 0px;
+}
+
+.popup-container {
+  height: 120px;
+}
+
+.popup-para {
+  font-family: 微软雅黑, 黑体;
+  color: white;
+  font-size: 16px;
+}
+
+.popup-button {
+  width: 250px;
+  margin-left: 7px;
+  font-family: 微软雅黑, 黑体;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+.popup-button.youtube {
+  background-color: #ed395d;
+}
+
+.popup-button.youtube:hover {
+  background-color: #cf3655;
+}
+
+.popup-button.facebook {
+  background-color: #3973ed;
+}
+
+.popup-button.facebook:hover {
+  background-color: #3062ce;
+}
+
+.popup-button.forums:hover {
+  background-color: #2776bb;
+}
+
+.staff-section {
+  height: 600px;
+  background-color: white;
+}
+
+.staff-section-container {
+  height: 500px;
+  margin-top: 5px;
+}
+
+.staff-head {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 100px;
+}
+
+.staff-head._2nd-row {
+  margin-top: 35px;
+}
+
+.staff-heading {
+  font-family: 微软雅黑, 黑体;
+  color: #1a80a5;
+  font-weight: 300;
+  text-align: center;
+  text-transform: none;
+}
+
+.staff-postion {
+  margin-top: -11px;
+  font-family: 微软雅黑, 黑体;
+  color: #1a80a5;
+  font-weight: 400;
+  text-align: center;
+}
+
+.rules-section {
+  height: 600px;
+  background-color: #244753;
+}
+
+.rules-number {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid white;
+  border-radius: 100px;
+  font-family: 微软雅黑, 黑体;
+  color: white;
+  font-size: 29px;
+  line-height: 43px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.rules-number:hover {
+  background-color: #707070;
+}
+
+.rules-number._2nd-row {
+  margin-top: 45px;
+  font-size: 29px;
+  line-height: 43px;
+}
+
+.rule-heading {
+  font-family: 微软雅黑, 黑体;
+  color: white;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.rules-para {
+  margin-top: 6px;
+  font-family: 微软雅黑, 黑体;
+  color: white;
+  text-align: center;
+}
+
+.server-voting {
+  height: 250px;
+  border-top: 4px solid #0b3a49;
+  border-bottom: 4px solid #0b3a49;
+  background-color: #1a80a5;
+}
+
+.vote-button {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid white;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: 微软雅黑, 黑体;
+  font-size: 33px;
+  line-height: 37px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.vote-button:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.footer {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 63px;
+  background-color: #15242e;
+}
+
+.copyright-text {
+  width: 800px;
+  height: 45px;
+  margin-left: 2px;
+  font-family: 'PT Sans', 黑体;
+  color: #1566a5;
+  font-size: 16px;
+  line-height: 61px;
+  font-weight: 400;
+}
+
+.link-features {
+  display: block;
+  width: 400px;
+  height: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link-staff {
+  width: 400px;
+  height: 25px;
+}
+
+.link-rules {
+  width: 400px;
+  height: 15px;
+}
+
+.link-voting {
+  width: 400px;
+  height: 15px;
+}
+
+.voting-para {
+  font-family: 微软雅黑, 黑体;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.link-top {
+  width: 400px;
+  height: 25px;
+}
+
+@media (max-width: 991px) {
+  .menu-button {
+    color: white;
+  }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 479px) {
+  .staff-section {
+    background-color: white;
+  }
+  .staff-mobile {
+    display: block;
+    margin-top: 6px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mobile-join-us {
+    height: 120px;
+  }
+}
+

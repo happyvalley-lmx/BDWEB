@@ -1,0 +1,12 @@
+[Unit]
+After=syslog.target network.target remote-fs.target nss-lookup.target
+[Service]
+# 你的用户
+User=akarimai
+# 你的目录
+WorkingDirectory=/home/akarimai/web/BDWEB
+# gunicorn启动命令
+ExecStart=/home/akarimai/.local/bin/gunicorn -w 4 -b 0.0.0.0:5001 app:app
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target

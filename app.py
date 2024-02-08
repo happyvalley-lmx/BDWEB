@@ -8,14 +8,19 @@ from PIL import Image, ImageDraw, ImageFont
 
 bdserver = JavaServer.lookup("p.bdcraft.cn:25565")
 def mc_java_server_status(server):
-    # 'status' is supported by all Minecraft servers that are version 1.7 or higher.
-    status = server.status()
-    print("服务器版本：%s\n当前有 %s/%s 位玩家\n延迟为 %s ms\n" % (status.version.name, status.players.online, status.players.max, round(status.latency, 2)))
+    try:
+        status = server.status()
+        print("服务器版本：%s\n当前有 %s/%s 位玩家\n延迟为 %s ms\n" % (status.version.name, status.players.online, status.players.max, round(status.latency, 2)))
+    except:
+        status = {"players":{"online":0,"max":0},"version":{"name":"无法连接到服务器"},"description":{"text":"Unknown"},"latency":0}
     return status
 
 bdbeserver = BedrockServer.lookup("www.mcd.blue:19132")
 def mc_bedrock_server_status(server):
-    status = server.status()
+    try:
+        status = server.status()
+    except:
+        status = {"players":{"online":0,"max":0},"version":{"name":"无法连接到服务器"},"description":{"text":"Unknown"},"latency":0}
     return status
 
 app = Flask(__name__)
